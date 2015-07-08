@@ -2,7 +2,7 @@
  * Tweak the overal size to better match RTD.
  */
 body {
-    font-size: 90%;
+    font-size: 90%;    
 }
 
 /* Typography */
@@ -32,6 +32,15 @@ h1 {
 
 h2, h3, h4, h5, h6 {
     color:#404040;
+}
+
+code, .rst-content {
+    background:#F2F0F0;
+    color:#0B8BB7;
+    padding-top: 2px;
+    padding-left:7px;
+    padding-right:7px;
+    border-radius:6px;
 }
 
 /*
