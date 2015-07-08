@@ -125,3 +125,8 @@ code.cs, code.c {
     padding-left: 1em;
 }
 
+/* Improves readability and gives a better sense of the selected menu element */
+.wy-menu-vertical a:hover, .wy-menu-vertical a:active {
+    color:#FFF;
+}
+
