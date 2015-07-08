@@ -124,3 +124,7 @@ code.cs, code.c {
 .wy-menu-vertical li ul.subnav ul.subnav{
     padding-left: 1em;
 }
+
+.wy-menu-vertical a:hover, .wy-menu-vertical a:active {
+    color:#FFF;
+}
