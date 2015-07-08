@@ -5,9 +5,33 @@ body {
     font-size: 90%;
 }
 
-h3, h4, h5, h6 {
-    color: #2980b9;
-    font-weight: 300
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+    cursor:default;
+    display:block;    
+    padding:10px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #FFF;
+    border-radius: 7px;
+}
+
+h1 {
+    color:#FFF;
+    letter-spacing: 0.3px;
+    text-shadow: 1px 1px 1px #CCC;
+    background: rgb(41,202,227);
+    background: -moz-linear-gradient(top, rgb(41,202,227) 0%, rgb(13,76,124) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(41,202,227)), color-stop(100%,rgb(13,76,124)));
+    background: -webkit-linear-gradient(top, rgb(41,202,227) 0%,rgb(13,76,124) 100%);
+    background: -o-linear-gradient(top, rgb(41,202,227) 0%,rgb(13,76,124) 100%);
+    background: -ms-linear-gradient(top, rgb(41,202,227) 0%,rgb(13,76,124) 100%);
+    background: linear-gradient(to bottom, rgb(41,202,227) 0%,rgb(13,76,124) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29cae3', endColorstr='#0d4c7c',GradientType=0 );
+}
+
+h2, h3, h4, h5, h6 {
+    color:#404040;
 }
 
 /*
@@ -129,4 +153,3 @@ code.cs, code.c {
 .wy-menu-vertical a:hover, .wy-menu-vertical a:active {
     color:#FFF;
 }
-
