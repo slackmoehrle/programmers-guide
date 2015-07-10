@@ -34,7 +34,7 @@ h2, h3, h4, h5, h6 {
     color:#404040;
 }
 
-code, .rst-content {
+code {
     background:#F2F0F0;
     color:#0B8BB7;
     padding-top: 2px;
