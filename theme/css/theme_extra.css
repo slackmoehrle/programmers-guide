@@ -5,7 +5,7 @@ body {
     font-size: 90%;    
 }
 
-/* Typography */
+/* TYPOGRAPHY */
 
 h1, h2, h3, h4, h5, h6 {
     cursor:default;
@@ -60,6 +60,19 @@ code {
 
 .wy-menu-vertical .subnav a {
     padding: 0.4045em 2.427em;
+}
+
+/* GUIDE SEARCH */
+.wy-side-nav-search {
+    border-radius:0px;
+    padding:8px 10px;
+    box-shadow:inset 0px 2px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0px 2px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow:inset 0px 2px 3px rgba(0,0,0,0.5);
+}
+
+.wy-side-nav-search:focus {
+    border-color:#FFF;
 }
 
 /*
