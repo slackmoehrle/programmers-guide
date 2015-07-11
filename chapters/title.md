@@ -3,7 +3,7 @@
 
 #### __Authors:__ SlackMoehrle, Ricardo, Justin, Nite, Kai, Minggo, Wenhai, Tony, Yingtao, Rao
 
-#### __Authors:__ Nico(Eschmelax™)
+#### __UI Design:__ Nico(Eschmelax™)
 
 #### __Contributors/Editors:__ stevetranby, Maxxx, smitpatel88, IQD, Michael, Meir_yanovich, catch_up, kidproquo, EMebane, reyanthonyrenacia, Fradow, pabitrapadhy, Manny_Dev, ZippoLag, kubas121, bjared, grimfate, DarioDP
 
