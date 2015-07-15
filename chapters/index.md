@@ -1,7 +1,9 @@
-## Cocos2d-x Programmers Guide v3.3
-## v2015.03.24
+## Cocos2d-x Programmers Guide v3.7
+## v2015.07.10
 
 #### __Authors:__ SlackMoehrle, Ricardo, Justin, Nite, Kai, Minggo, Wenhai, Tony, Yingtao, Rao
+
+#### __UI Design:__ Nico(Eschmelax™)
 
 #### __Contributors/Editors:__ stevetranby, Maxxx, smitpatel88, IQD, Michael, Meir_yanovich, catch_up, kidproquo, EMebane, reyanthonyrenacia, Fradow, pabitrapadhy, Manny_Dev, ZippoLag, kubas121, bjared, grimfate, DarioDP
 

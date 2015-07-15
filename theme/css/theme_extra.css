@@ -1,21 +1,59 @@
-/*
- * Tweak the overal size to better match RTD.
- */
+/* COCOS2D-X PROGRAMMERS GUIDE | ADDITIONAL LAYOUT. @AUTHOR: NICO(ESCHMELAX) */
+
 body {
     font-size: 90%;
 }
 
-h3, h4, h5, h6 {
-    color: #2980b9;
-    font-weight: 300
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4, h5, h6 {
+    cursor:default;
+    display:block;    
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #FFF;   
 }
 
-/*
- * Sphinx doesn't have support for section dividers like we do in
- * MkDocs, this styles the section titles in the nav
- *
- * https://github.com/mkdocs/mkdocs/issues/175
- */
+h1 {
+    color:#000;
+    letter-spacing: 0.3px;
+    text-shadow: 1px 1px 1px #CCC;
+    border-bottom:3px solid rgb(13,76,124)
+}
+
+h2 {
+    border-bottom:3px solid #CCC;
+}
+
+h2, h3, h4, h5, h6 {
+    color:#404040;
+}
+
+/* SYNTAX HIGHLIGHT */
+
+code {
+    background:#F2F0F0;
+    color:#0B8BB7;
+    padding-top: 2px;
+    padding-left:7px;
+    padding-right:7px;
+    border-radius:6px;
+}
+
+.hljs {
+    font-size:100%;
+    padding:15px!important;
+    background: #f3f3f3;
+    border:1px solid #b2b0b0;
+}
+
+.hljs-string {
+    color: #199910 !important;
+}
+
+/* MAIN MENU */
+
 .wy-menu-vertical span {
     line-height: 18px;
     padding: 0.4045em 1.618em;
@@ -27,6 +65,51 @@ h3, h4, h5, h6 {
 
 .wy-menu-vertical .subnav a {
     padding: 0.4045em 2.427em;
+}
+
+.wy-menu-vertical .toctree-l1 .current  {
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+}
+
+.wy-menu-vertical .toctree-l1 .current:hover {
+    background: #e5e5e5;
+    background: -moz-linear-gradient(top, #e5e5e5 0%, #ffffff 99%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(99%,#ffffff));
+    background: -webkit-linear-gradient(top, #e5e5e5 0%,#ffffff 99%);
+    background: -o-linear-gradient(top, #e5e5e5 0%,#ffffff 99%);
+    background: -ms-linear-gradient(top, #e5e5e5 0%,#ffffff 99%);
+    background: linear-gradient(to bottom, #e5e5e5 0%,#ffffff 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 );
+}
+
+.wy-menu-vertical li a {
+    font-size: 100%;
+}
+
+.wy-menu-vertical li.current a {
+
+    color:#000000;
+}
+
+/* GUIDE SEARCH */
+
+.wy-side-nav-search input[type="text"] {
+    border-radius:0px;
+    padding:8px 10px;
+    box-shadow:inset 0px 2px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0px 2px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow:inset 0px 2px 3px rgba(0,0,0,0.5);
+}
+
+.wy-side-nav-search:focus {
+    border-color:#FFF;
 }
 
 /*
@@ -123,4 +206,9 @@ code.cs, code.c {
 
 .wy-menu-vertical li ul.subnav ul.subnav{
     padding-left: 1em;
+}
+
+/* Improves readability and gives a better sense of the selected menu element */
+.wy-menu-vertical a:hover, .wy-menu-vertical a:active {
+    color:#FFF;
 }
