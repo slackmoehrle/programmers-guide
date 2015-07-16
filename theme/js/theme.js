@@ -1,27 +1,18 @@
 $( document ).ready(function() {
 
-    // Shift nav in mobile when clicking the menu.
-    $(document).on('click', "[data-toggle='wy-nav-top']", function() {
-      $("[data-toggle='wy-nav-shift']").toggleClass("shift");
-      $("[data-toggle='rst-versions']").toggleClass("shift");
-    });
+    // Replace the .icon-home class and add the cocos-2dx logo
+    $('.icon-home').replaceWith("<div><a id='cclogo' href='#'></a><span id='ccspan'>Programming Guide</span></div>");
 
-    // Close menu when you click a link.
-    $(document).on('click', ".wy-menu-vertical .current ul li a", function() {
-      $("[data-toggle='wy-nav-shift']").removeClass("shift");
-      $("[data-toggle='rst-versions']").toggleClass("shift");
-    });
+    mobileMenu();
 
-    $(document).on('click', "[data-toggle='rst-current-version']", function() {
-      $("[data-toggle='rst-versions']").toggleClass("shift-up");
-    });
+    runCleanUp();
 
-    // Make tables responsive
-    $("table.docutils:not(.field-list)").wrap("<div class='wy-table-responsive'></div>");
+    languageTabs();
 
     hljs.initHighlightingOnLoad();
 
     $('table').addClass('docutils');
+
 });
 
 window.SphinxRtdTheme = (function (jquery) {
@@ -53,3 +44,41 @@ window.SphinxRtdTheme = (function (jquery) {
         StickyNav : stickyNav
     };
 }($));
+
+function languageTabs() {
+    $('.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
+
+        $('.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+    })
+}
+
+function mobileMenu() {
+    // Shift nav in mobile when clicking the menu.
+    $(document).on('click', "[data-toggle='wy-nav-top']", function() {
+        $("[data-toggle='wy-nav-shift']").toggleClass("shift");
+        $("[data-toggle='rst-versions']").toggleClass("shift");
+    });
+
+    // Close menu when you click a link.
+    $(document).on('click', ".wy-menu-vertical .current ul li a", function() {
+        $("[data-toggle='wy-nav-shift']").removeClass("shift");
+        $("[data-toggle='rst-versions']").toggleClass("shift");
+    });
+
+    $(document).on('click', "[data-toggle='rst-current-version']", function() {
+        $("[data-toggle='rst-versions']").toggleClass("shift-up");
+    });
+}
+
+function runCleanUp() {
+    // Remove all hr, they are not needed
+    $('.rst-content hr').remove();
+
+    // Make tables responsive
+    $("table.docutils:not(.field-list)").wrap("<div class='wy-table-responsive'></div>");
+}
