@@ -1,10 +1,8 @@
 /* COCOS2D-X PROGRAMMERS GUIDE | ADDITIONAL LAYOUT. @AUTHOR: NICO(ESCHMELAX) */
 
-body {
-    font-size: 90%;
-}
+body { font-size: 90%; overflow:hidden; }
 
-/* TYPOGRAPHY */
+/* _______TYPOGRAPHY_______ */
 
 h1, h2, h3, h4, h5, h6 {
     cursor:default;
@@ -18,27 +16,42 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     color:#000;
     letter-spacing: 0.3px;
-    text-shadow: 1px 1px 1px #CCC;
-    border-bottom:3px solid rgb(13,76,124)
+    text-transform: uppercase;
+    text-shadow: 0px 1px 1px #878787;
+    border-bottom:4px solid rgb(13,76,124)
 }
 
 h2 {
-    border-bottom:3px solid #CCC;
+    border-bottom:3px solid #333131;
 }
 
 h2, h3, h4, h5, h6 {
     color:#404040;
 }
 
-/* SYNTAX HIGHLIGHT */
+p { color:#000; }
+
+/* _______SYNTAX HIGHLIGHT_______ */
 
 code {
-    background:#F2F0F0;
-    color:#0B8BB7;
+    white-space: pre;
+    background: #e3e1e1;
+    color: #1860b7;
     padding-top: 2px;
     padding-left:7px;
     padding-right:7px;
     border-radius:6px;
+    text-shadow: 0px 1px 1px #fff;
+}
+
+p code { word-wrap: break-word; }
+
+code.cs, code.c { font-weight: inherit; font-style: inherit;}
+
+.no-highlight {
+    display: block;
+    padding: 0.5em;
+    color: #333;
 }
 
 .hljs {
@@ -52,7 +65,31 @@ code {
     color: #199910 !important;
 }
 
-/* MAIN MENU */
+/* _______LOGOTYPE_______ */
+
+#cclogo {
+    display: block;
+    background: transparent url('../img/cclogo.png') no-repeat 0 0;
+    width: 266px;
+    height: 73px;
+    margin-top:2px;
+    margin-bottom: 5px;
+    text-align:center;
+    color: #222020;
+}
+
+#ccspan {
+    cursor:default;
+    display: block;
+    color:#FFF;
+    text-align:center;
+    letter-spacing: 0.428em;
+    text-transform: uppercase!important;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 10px #FFF;
+}
+
+/* _______MAIN MENU_______ */
 
 .wy-menu-vertical span {
     line-height: 18px;
@@ -63,120 +100,182 @@ code {
     color: #838383;
 }
 
-.wy-menu-vertical .subnav a {
-    padding: 0.4045em 2.427em;
-}
+.wy-menu-vertical .subnav a {padding: 0.4045em 2.427em;}
 
 .wy-menu-vertical .toctree-l1 .current  {
-    background: #ffffff;
-    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
-    background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
-    background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
-    background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
-    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+    border:none;
+    color:#FFF;
+    text-shadow: 0px 1px 1px #000;
+    background: #6b6b6b;
+    background: -moz-linear-gradient(top, #6b6b6b 0%, #222020 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6b6b6b), color-stop(100%,#222020));
+    background: -webkit-linear-gradient(top, #6b6b6b 0%,#222020 100%);
+    background: -o-linear-gradient(top, #6b6b6b 0%,#222020 100%);
+    background: -ms-linear-gradient(top, #6b6b6b 0%,#222020 100%);
+    background: linear-gradient(to bottom, #6b6b6b 0%,#222020 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', endColorstr='#222020',GradientType=0 );
 }
 
 .wy-menu-vertical .toctree-l1 .current:hover {
-    background: #e5e5e5;
-    background: -moz-linear-gradient(top, #e5e5e5 0%, #ffffff 99%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(99%,#ffffff));
-    background: -webkit-linear-gradient(top, #e5e5e5 0%,#ffffff 99%);
-    background: -o-linear-gradient(top, #e5e5e5 0%,#ffffff 99%);
-    background: -ms-linear-gradient(top, #e5e5e5 0%,#ffffff 99%);
-    background: linear-gradient(to bottom, #e5e5e5 0%,#ffffff 99%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 );
+    background: #6b6b6b;
+    background: -moz-linear-gradient(top, #6b6b6b 0%, #222020 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6b6b6b), color-stop(100%,#222020));
+    background: -webkit-linear-gradient(top, #6b6b6b 0%,#222020 100%);
+    background: -o-linear-gradient(top, #6b6b6b 0%,#222020 100%);
+    background: -ms-linear-gradient(top, #6b6b6b 0%,#222020 100%);
+    background: linear-gradient(to bottom, #6b6b6b 0%,#222020 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', endColorstr='#222020',GradientType=0 );
 }
+
+.wy-menu-vertical li.current ul {
+    background: #211f1f;
+
+}
+
+.wy-menu-vertical li.current ul a {
+    color:#FFF;
+}
+
+.wy-menu-vertical li.current ul a:hover {
+    color:#0B8BB7;
+    background: #272525;
+    text-shadow:none;
+}
+
+.wy-menu-vertical ul { margin-bottom: 2em;}
 
 .wy-menu-vertical li a {
     font-size: 100%;
+    -webkit-transition: all 200ms ease-out 0s;
+    -moz-transition: all 200ms ease-out 0s;
+    -o-transition: all 200ms ease-out 0s;
+    transition: all 200ms ease-out 0s;
 }
 
+.wy-menu-vertical li a:hover {}
 .wy-menu-vertical li.current a {
-
     color:#000000;
 }
 
-/* GUIDE SEARCH */
+.wy-menu-vertical .current li a{
+    color: #f2f2f2;
+}
+
+.wy-menu-vertical .current li a:hover{
+    color: #FFF;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.wy-menu-vertical .current li a:focus{
+    background: #222222;
+
+}
+
+.wy-breadcrumbs, .breadcrumbs, .rst-versions, .langs { display:none; }
+
+/* _______GUIDE SEARCH_______ */
+
+.wy-side-nav-search {
+    padding:0.68em!important;
+    background-color: #343232;
+}
 
 .wy-side-nav-search input[type="text"] {
+    font-size:95%;
+    color:#FFF;
+    background: #343232 url('../img/search.png') no-repeat 8px 8px;
     border-radius:0px;
-    padding:8px 10px;
-    box-shadow:inset 0px 2px 3px rgba(0,0,0,0.5);
-    -webkit-box-shadow: inset 0px 2px 3px rgba(0,0,0,0.5);
-    -moz-box-shadow:inset 0px 2px 3px rgba(0,0,0,0.5);
+    border:1px solid #1675a5;
+    padding:6px 32px 8px 32px;
+    box-shadow:inset 0px 1px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: inset 0px 1px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.4);
+    -webkit-transition: all 300ms ease-out 0s;
+    -moz-transition: all 300ms ease-out 0s;
+    -o-transition: all 300ms ease-out 0s;
+    transition: all 300ms ease-out 0s;
 }
 
-.wy-side-nav-search:focus {
-    border-color:#FFF;
+.wy-side-nav-search input[type="text"]:focus {
+    color: #fff;
+    background-color: #403e3e;
+    border:1px solid #2698b4;
+    box-shadow: 0px 1px 10px #1675a5;
+    -webkit-box-shadow:0px 1px #1675a5;
+    -moz-box-shadow: 0px 1px 10px #1675a5;
 }
 
-/*
- * Long navigations run off the bottom of the screen as the nav
- * area doesn't scroll.
- *
- * https://github.com/mkdocs/mkdocs/pull/202
- */
 .wy-nav-side {
     height: 100%;
     overflow-y: auto;
 }
 
-/*
- * readthedocs theme hides nav items when the window height is
- * too small to contain them.
- *
- * https://github.com/mkdocs/mkdocs/issues/#348
- */
-.wy-menu-vertical ul {
-  margin-bottom: 2em;
+/* _______CONTENT WRAPPER_______ */
+
+.wy-nav-content-wrap {
+    background: #343232 url('../img/wrap-bg.jpg') repeat 0 0 fixed;
 }
 
-/*
- * Fix wrapping in the code highlighting
- *
- * https://github.com/mkdocs/mkdocs/issues/233
- */
-code {
-    white-space: pre;
+.wy-nav-content {
+    max-width:960px;
 }
 
-/*
- * Wrap inline code samples otherwise they shoot of the side and
- * can't be read at all.
- *
- * https://github.com/mkdocs/mkdocs/issues/313
- */
-p code {
-    word-wrap: break-word;
+/* _______LINKS AND BULLETS_______ */
+
+.rst-content ul li {
+    padding-left: 0;
+    list-style-image: url("../img/blt.png")!important;
 }
 
-/*
- * The CSS classes from highlight.js seem to clash with the
- * ReadTheDocs theme causing some code to be incorrectly made
- * bold and italic.
- *
- * https://github.com/mkdocs/mkdocs/issues/411
- */
-code.cs, code.c {
-    font-weight: inherit;
-    font-style: inherit;
+.rst-content ul li a {
+    outline:0;
+    padding:0;
+    color: #206baa;
+    border-bottom:1px solid #206baa;
 }
 
-/*
- * Fix some issues with the theme and non-highlighted code
- * samples. Without and highlighting styles attached the
- * formatting is broken.
- *
- * https://github.com/mkdocs/mkdocs/issues/319
- */
-.no-highlight {
-  display: block;
-  padding: 0.5em;
-  color: #333;
+.rst-content ul li a:hover {
+    color: #373737;
+    border-bottom:1px solid #373737;
 }
 
+/* _______LANGUAGE TABS_______ */
+.tabs{
+    margin: 0px;
+    padding: 0px;
+    border:1px solid red;
+
+}
+.tabs li{
+    width: 150px;
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 0px;
+    cursor: pointer;
+    margin:0;
+}
+
+.tabs li.current{
+    margin-top:0;
+    background: #eaeaea;
+    color: #222;
+}
+
+.tab-content{
+    margin-top:-24px;
+    display: none;
+    background: none;
+
+}
+
+.tab-content code {
+    text-align:left!important;
+}
+
+.tab-content.current{
+    display: block;
+}
 
 /*
  * Additions specific to the search functionality provided by MkDocs
@@ -208,7 +307,7 @@ code.cs, code.c {
     padding-left: 1em;
 }
 
-/* Improves readability and gives a better sense of the selected menu element */
+/*  selected menu element */
 .wy-menu-vertical a:hover, .wy-menu-vertical a:active {
     color:#FFF;
 }
