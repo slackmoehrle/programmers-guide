@@ -28,6 +28,7 @@ pages:
 - 'Appx G - Windows Setup': 'G.md'
 - 'Appx H - Windows Phone Setup': 'H.md'
 - 'Appx I - Command-Line Integration': 'I.md'
+- 'Appx J - SDKBOX': 'J.md'
 
 theme: readthedocs
 theme_dir: 'theme'
