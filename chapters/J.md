@@ -20,12 +20,9 @@ __SDKBOX__ is a new Cocos2d-x tool that allows developers to integrate popular t
 * __Vungle:__ Infrastructure for app monetization through video ads.
 
 ## SDKBOX: Installing SDKBOX Plugins using the Installer
-
-## Preparing to run the SDKBOX Installer
 Before you can run the SDKBOX installer you need to do a few things.
 * make sure you know the path to where you downloaded the SDKBOX installer. (you can always put it in `/usr/local/bin`)
 
-## Installing a Plugin using the SDKBOX Installer
 Now we are ready to install a plugin! There isn't much to it. Ready?
 
 ### Installing for OS X
@@ -82,7 +79,6 @@ usage: sdkbox [-h] [-v] [-p [PROJECT]] [-b [PLUGIN]] [-D SYMBOL] [-q]
 | -b PLUGIN | --plugin PLUGIN |specify path to plugin (defaults to .) |
 |         | --dryrun        |test install before performing. |
 | -q | --nohelp |don't open online documentation after installation. |
-
 |         | --forcedownload |force download of package even if it is already downloaded. |
 |         | --dryrun        |test install before performing. |
 |         | --china        |use China based server instead of US |
