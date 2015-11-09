@@ -45,19 +45,19 @@ cleanUp() {
 }
 
 exitScript() {
-  echo "Staging version of the guide at: ChukongUSA.github.io/programmers-guide"
+  echo "Staging version of the guide at: slackmoehrle.github.io"
   echo "exiting...."
   exit 0
 }
 
 deployToGitHub() {
   echo "deploying to GitHub Pages: ..."
-  rsync -a site/ ../ChukongUSA.github.io/programmers-guide
-  cd ../ChukongUSA.github.io/programmers-guide
+  rsync -a site/ ../slackmoehrle.github.io
+  cd ../slackmoehrle.github.io
   git add .
   git commit -m 'published automatically from script'
   git push
-  cd ../../programmers-guide
+  cd ../programmers-guide
 }
 
 buildHTML() {
