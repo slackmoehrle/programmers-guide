@@ -2,7 +2,7 @@
 
 ## Prerequisite
 * Review the [SDKBOX](http://cocos2d-x.org/sdkbox) website and decide what plugins you want to integrate.
-* Download the __SDKBOX Installer__. If you are running Cocos2d-x v3.7, the __SDKBOX Installer__ is already downloaded and located at `<cocos2d-x root>/tools/cocos2d-console/bin/sdkbox`.
+* Download the __SDKBOX Installer__. If you are running Cocos2d-x v3.7, the __SDKBOX Installer__ is already downloaded and located at `<cocos2d-x root>/tools/cocos2d-console/plugins/plugin_package/sdkbox`.
 
 ## Why SDKBOX?
 __SDKBOX__ is a new Cocos2d-x tool that allows developers to integrate popular third party plugins for __Tune__, __AdColony__, __Age Cheq__, __Chartboost__, __Facebook__, __Flurry Analytics__, __Google Analytics__, __In-App Purchase__, __Kochava__, and __Vungle__. __SDKBOX__ makes it super *EASY* and *FREE* for Cocos2d-x developers to integrate 3rd party SDKs into their games by doing all the hard, tedious and tricky work so that developers don’t have to. All services are tested and certified. No matter which version of the game engine you are using, C++ or Javascript or Lua, SDKBOX will reduce your integration time from a typical 1~2 weeks down to less than a day. No hassle, no friction.
