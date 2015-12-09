@@ -5,8 +5,8 @@
 
 ## `cocos` command-line tool
 Cocos2d-x comes with a command-line tool called `cocos`. It is a cross-platform
-tool that allows you to create new Cocos2d-x applications as well as _run_ them
-and _deploy_ them. `cocos` works for all Cocos2d-x supported platforms, which
+tool that allows you to create new cocos2d-x applications as well as _run_ them
+and _deploy_ them. `cocos` works for all cocos2d-x supported platforms, which
 include: __ios__, __android__, __mac__, __linux__, __win32__, __wp8_1__ and
 __web__. You don't need to use an IDE unless you want to. It has many options,
 so let's go through them grouped by function.

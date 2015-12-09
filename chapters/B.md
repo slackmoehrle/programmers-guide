@@ -3,7 +3,7 @@
 ## Environment Requirements
 * A Supported OS. See **[Appendix A](../A/index.html)**
 
-* Cocos2d-x v3.x [https://cocos2d-x.org/download](https://cocos2d-x.org/download "Cocos2d-x")
+* cocos2d-x v3.x [https://cocos2d-x.org/download](https://cocos2d-x.org/download "cocos2d-x")
 
 * JDK/SDK 1.6+ [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
