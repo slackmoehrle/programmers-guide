@@ -17,7 +17,7 @@ __Next__.
 
 ![](C-img/image2.png)
 
-* Click the __Browse__ button to choose the directory of __Cpp-Tests__ `proj.android`
+* Click the __Browse__ button to choose the directory of __CPP-Tests__ `proj.android`
 and Click __Ok__.
 
 ![](C-img/image3.png)
@@ -36,6 +36,6 @@ and Click __Ok__.
 * Make sure your computer can recognize your phone (you might need to install
 drivers for your specific phone)
 
-* Right click on the project and choose__Run as...__ -> __Android Application__.
+* Right click on the project and choose __Run as__ -> __Android Application__.
 
 ![](C-img/image6.png)
