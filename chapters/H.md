@@ -18,24 +18,25 @@
 
 ![](H-img/2.png "")
 
-* Right click the `cpp-tests` project, and select `Set as StartUp Project`.
+* Right click the __cpp-tests__ project, and select __Set as StartUp Project__.
 
 ![](H-img/3.png "")
 
-* Select `Emulator` or a `Device` to run the project on. If you sect `Device`
-you need to connect your phone device using usb. Compile and run the `TestCpp`
+* Select __Emulator__ or a __Device__ to run the project on. If you select __Device__
+you need to connect your phone device using usb. Compile and run the __TestCpp__
 project.
 
 ![](H-img/4.png "")
 
 ## How to debug in project
-* Right click `cpp-tests`, select `Properties`, in `Debug`, select `debug` target.
+* Right click __cpp-tests__, select __Properties__, in __Debug__, select __debug__
+target.
 
 ![](H-img/5.png "")
 
-* If you select `Managed Only` in `UI Task`, it's to debug c# code in `cpp-tests`.
-If you select `Native Only`, it's to debug c++ code in `cpp-testsComponent`.
-If you select `Native Only` and want to use `CCLog` function, right click
-`cpp-testsComponent` and define `COCOS2D_DEBUG=1` in `Preprocessor Definitions`
+* If you select __Managed Only__ in __UI Task__, it's to debug c# code in __cpp-tests__.
+If you select __Native Only__, it's to debug c++ code in __cpp-testsComponent__.
+If you select __Native Only__ and want to use __CCLog__ function, right click
+__cpp-testsComponent__ and define __COCOS2D_DEBUG=1__ in __Preprocessor Definitions__.
 
 ![](H-img/6.png "")

@@ -75,10 +75,10 @@ path to where you installed the JDK above.
 
 ![](B-img/win-step9.png "")
 
-* if everything works it is time to run `setup.py` to configure your Android
+* if everything works it is time to run __setup.py__ to configure your Android
 development environment. This will set the necessary environment variables needed.
 If you haven't configured this environment before, you will be prompted to enter
-paths for variables that are not found. You run `setup.py` from the directory
+paths for variables that are not found. You run __setup.py__ from the directory
 cocos2d-x is in.
 
 		> setup.py
@@ -87,15 +87,15 @@ cocos2d-x is in.
 
 * restart your command prompt for these settings to take effect
 
-* to build __cpp-tests__ `cd` to where you are keeping cocos2d-x and enter the
-`build` directory
+* to build __cpp-tests__, __cd__ to where you are keeping cocos2d-x and enter the
+__build__ directory
 
-* run `android list targets` from `sdk/tools` to see what targets you have
+* run __android list targets__ from __sdk/tools__ to see what targets you have
 available to build for:
 
 ![](B-img/win-step10.png "")
 
-* run: `python android-build.py -p <a target from above> cpp-tests`, using the
+* run: __python android-build.py -p <a target from above> cpp-tests__, using the
 screenshot above, as an example, run:
 
 		> python android-build.py -p 21 cpp-tests
@@ -127,7 +127,7 @@ screenshot above, as an example, run:
 
 * install __Apache Ant__ and verify that it works.
 
-* run: `setup.py` to configure your Android development environment. This will
+* run: __setup.py__ to configure your Android development environment. This will
 set the necessary environment variables needed. If you haven't configured this
 environment before, you will be prompted to enter paths for variables that are
 not found.
@@ -135,7 +135,7 @@ not found.
 	__caution__: You must **not** use the `~` sign. Use the full path to your **home**
 directory. Otherwise, the scripts will fail due to error path value.
 
-* in your __cocos2d-x__ directory run: `python setup.py`
+* in your __cocos2d-x__ directory run: __python setup.py__
 
 * after setting the environment variables run:
 
@@ -147,8 +147,8 @@ directory. Otherwise, the scripts will fail due to error path value.
 
 ![](B-img/setuppy03.png "")
 
-* change your directory to the where the `android-build.py` script is located.
-(usually `cocos2d-x/build`)
+* change your directory to the where the __android-build.py__ script is located.
+(usually __cocos2d-x/build__)
 
 * to see what targets are available. run:
 
