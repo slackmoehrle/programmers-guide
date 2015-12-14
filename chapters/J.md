@@ -10,7 +10,7 @@ __SDKBOX Installer__ is already downloaded and located at __<cocos2d-x root>/too
 __SDKBOX__ is a new cocos2d-x tool that allows developers to integrate popular
 third party plugins for __Tune__, __AdColony__, __Age Cheq__, __Chartboost__,
 __Facebook__, __Flurry Analytics__, __Google Analytics__, __In-App Purchase__,
-__Kochava__, and __Vungle__. __SDKBOX__ makes it super *EASY* and *FREE* for
+__Kochava__, __Vungle__ and many more. __SDKBOX__ makes it super *EASY* and *FREE* for
 cocos2d-x developers to integrate 3rd party SDKs into their games by doing all
 the hard, tedious and tricky work so that developers don’t have to. All services
 are tested and certified. No matter which version of the game engine you are using,
@@ -18,16 +18,28 @@ C++ or Javascript or Lua, SDKBOX will reduce your integration time from a typica
 1~2 weeks down to less than a day. No hassle, no friction.
 
 ## Which SDKBOX Plugins are right for you?
-* __Tune:__ Making mobile marketing better, for everyone.
 * __AdColony:__ Instant-play™ HD the best user experience.
 * __AgeCheq:__ Easy compliance with the US and Euro Child Privacy Laws.
+* __Appodeeal:__ Maximize your app revenue efficiently with programmatic ad mediation
+for publishers.
+* __Bee7:__ Native rewarded re-engagement system encourages valuable players to stay in your game
 * __Chartboost:__ Games-only platform to increase revenue and discover new players.
 * __Facebook:__ The world's largest social network.
 * __Flurry Analytics:__ Insights into your users and app performance.
+* __Fyber:__ Fyber empowers developers to execute smart ad monetization strategies.
 * __Google Analytics:__ Turn insights into action.
 * __In-App Purchase:__ Easily implement In-App Purchases in your game.
 * __Kochava:__ Driving Effective Mobile Ad Spend.
+* __Playphone:__ Your must-have game monetization channel in the world’s fastest
+growing gaming markets
+* __Ratings & Reviews:__ More downloads of your app with App store ratings and reviews
+* __Scientific Revenue:__ Pricing without Compromise
+* __SOOMLA Grow:__ God-mode analytics: see analytics from other games, target hidden
+whales.
+* __Tune:__ Making mobile marketing better, for everyone.
+* __Valuepotion:__ Monetize your full user base and get your values up
 * __Vungle:__ Infrastructure for app monetization through video ads.
+* __YouTube Player:__ Single API to play YouTube videos on both iOS and Android.
 
 ## SDKBOX: Installing SDKBOX Plugins using the Installer
 Before you can run the SDKBOX installer you need to do a few things.
