@@ -6,7 +6,7 @@ allDocuments=('blank' 'index' '1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11'
 '12' '13' '14' 'A' 'B' 'C' 'D' 'E' 'F' 'G' 'H' 'I' 'J')
 allChapters=('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11'
 '12' '13' '14' 'A' 'B' 'C' 'D' 'E' 'F' 'G' 'H' 'I' 'J')
-misc=('blank' 'index')
+misc=('blank' 'index' 'title')
 chaptersWithFolders=('2' '3' '4' '5' '6' '7' '9' '12' '14' 'B' 'C' 'D' 'F' 'G' 'H')
 chaptersWithOutFolders=('1' '8' '10' '11' '13' 'A' 'E' 'I' 'J')
 
