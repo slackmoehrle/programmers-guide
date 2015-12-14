@@ -2,14 +2,14 @@
 
 ## Environment Requirements
 * Ubuntu 12.10+
-* Cocos2d-x v3.3 [https://cocos2d-x.org/download](https://cocos2d-x.org/download "Cocos2d-x")
+* cocos2d-x v3.3 [https://cocos2d-x.org/download](https://cocos2d-x.org/download "cocos2d-x")
 * CMake 2.6+
 * gcc 4.9+
 
 ## Prerequisite
-Download Cocos2d-x and unzip it. (maybe: ~/)
+* Download cocos2d-x and unzip it. (maybe: ~/)
 
-Install dependencies. The dependencies are:
+* Install dependencies. The dependencies are:
 
 		libx11-dev
 		libxmu-dev
@@ -25,37 +25,37 @@ Install dependencies. The dependencies are:
 		libglew*-dev
 		libssl-dev
 
-If you are using Ubuntu/Debian, there is a shell script `build/install-deps-linux.sh`
-for you to install the dependences easily. Run commands below in terminal:  
+* If you are using Ubuntu/Debian, there is a shell script __build/install-deps-linux.sh__
+for you to install the dependences easily. Run the commands below, in a terminal:  
 
-    	$ cd $cocos2dx_root/build
-    	$ ./install-deps-linux.sh
+    	> cd $cocos2dx_root/build
+    	> ./install-deps-linux.sh
 
 Otherwise, you should install the dependencies manually.
 
 ## Generate Makefile
 
-Run `cmake` to generate `makefile`:
+* Run __cmake__ to generate __makefile__:
 
-    	$ mkdir linux-build
-    	$ cd linux-build
-    	$ cmake ../..
+    	> mkdir linux-build
+    	> cd linux-build
+    	> cmake ../..
 
-When `cmake` returns correctly, many files & folders will be generated in  
-`coocs2dx_root/build/linux-build`
+* When __cmake__ returns correctly, many files & folders will be generated in  
+__coocs2dx_root/build/linux-build__
 
 ![](F-img/1.png "")
 
 ## Compile
 
-Run `make` to compile:
+* Run __make__ to compile:
 
-    	$ make
+    	> make
 
-Application will be generated in `cocos2dx_root/build/linux-build/bin/cpp-tests/`
+Application will be generated in __cocos2dx_root/build/linux-build/bin/cpp-tests/__
 if compiled successfully.
 
 ## Run
 
-		$ cd bin/cpp-tests/
-		$ ./cpp-tests
+		> cd bin/cpp-tests/
+		> ./cpp-tests
