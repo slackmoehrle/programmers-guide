@@ -1,5 +1,5 @@
-## Cocos2d-x Programmers Guide v3.9
-## v2015.12.14
+## Cocos2d-x Programmers Guide v3.10
+## v2016.01.03
 
 #### __Authors:__ SlackMoehrle, Ricardo, Justin, Nite, Kai, Minggo, Wenhai, Tony, Yingtao, Rao, Huabin, Zhe
 
