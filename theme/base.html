@@ -20,6 +20,7 @@
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link href="{{ base_url }}/css/base.css" rel="stylesheet">
     <link href="{{ base_url }}/css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ base_url }}/css/pg.css">
     <link rel="stylesheet" href="{{ base_url }}/css/highlight.css">{%- for path in extra_css %}
 
 
@@ -86,6 +87,26 @@
     <script>
     var base_url = '{{ base_url }}';
     </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <script>
+  $(function() {
+    var key = "cocos2d-x_pg_lang";
+    var switch_lang = function(l) {
+        $('.langs li a').removeClass('selected');
+        $('#'+l).addClass('selected');
+        $('.tab_content').hide();
+        $('.'+l).show();
+        $.cookie(key, l);
+    }
+    $('.langs li a').click(function() {switch_lang(this.id);return false;});
+    var c = $.cookie(key);
+    if (typeof c == 'undefined') c='tab-cpp';
+    switch_lang(c);
+  });
+  </script>
+
+
     <script data-main="{{ base_url }}/mkdocs/js/search.js" src="{{ base_url }}/mkdocs/js/require.js"></script>
     <script src="{{ base_url }}/js/base.js"></script>
     {%- for path in extra_javascript %}
