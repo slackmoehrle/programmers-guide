@@ -16,3 +16,7 @@ __Special Thanks:__ To our users! Without you there is no reason to even write t
 Please provide feedback for this guide on [GitHub](https://github.com/chukong/programmers-guide)
 
 You can download the samples for this guide on [GitHub](https://github.com/chukong/programmers-guide-samples)
+
+## Previous versions of this guide
+* __[v3.9]()__
+* __[v3.8]()__
