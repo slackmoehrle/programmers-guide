@@ -30,7 +30,7 @@ pages:
       - 'F: Linux Setup': 'F.md'
       - 'G: Windows Setup': 'G.md'
       - 'H: Windows Phone Setup': 'H.md'
-      - 'I: Command-Line Integration': 'I.md'
+      - 'I: Cocos': 'I.md'
       - 'J: SDKBOX': 'J.md'
 - About: 'title.md'
 

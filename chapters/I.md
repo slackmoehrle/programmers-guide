@@ -1,6 +1,16 @@
-# Appendix I: Command-Line Integration
+# Cocos
 
-## Prerequisite
+## What is Cocos?
+
+## How are Cocos and Cocos2d-x related?
+
+## What is the workflow?
+
+## Cocos Studio
+
+
+
+<!--## Prerequisite
 * Completed one of the Appendices **[A](../A/index.html)**, **[B](../B/index.html)**,
 **[C](../C/index.html)**, **[D](../D/index.html)**, **[E](../E/index.html)**,
 **[F](../F/index.html)**, **[G](../G/index.html)**, **[H](../H/index.html)**
@@ -150,3 +160,4 @@ cocos deploy -q -s ~/MyCompany/MyGame -p ios -m release
 
 You can run __cocos deploy --help__ to see all available options broken down by
 platform.
+-->
