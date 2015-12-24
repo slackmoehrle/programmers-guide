@@ -1,4 +1,4 @@
-# Appendix J: SDKBOX
+# SDKBOX
 
 ## Prerequisite
 * Review the [SDKBOX](http://cocos2d-x.org/sdkbox) website and decide what plugins

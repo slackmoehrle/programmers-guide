@@ -1,4 +1,4 @@
-# Appendix H: Windows Phone 8 Installation and Setup
+# Windows Phone 8 Installation and Setup
 
 ## Environmental Requirements
 * Windows 8.0/8.1

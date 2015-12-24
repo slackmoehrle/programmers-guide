@@ -1,4 +1,4 @@
-# Appendix D: iOS Installation and Setup
+# iOS Installation and Setup
 
 ## Environment Requirements
 * Mac OS X 10.8+

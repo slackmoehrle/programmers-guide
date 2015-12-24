@@ -1,4 +1,4 @@
-# Appendix C: Android (Eclipse) Installation and Setup
+# Android (Eclipse) Installation and Setup
 
 ## Prerequisite
 * Complete steps in **[Appendix B](../B/index.html)**

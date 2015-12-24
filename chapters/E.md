@@ -1,4 +1,4 @@
-# Appendix E: Mac OSX Installation and Setup
+# Mac OS X Installation and Setup
 
 ## Environment Requirements
 * Mac OS X 10.8+

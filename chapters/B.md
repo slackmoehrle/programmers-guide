@@ -1,4 +1,4 @@
-# Appendix B: Android (Terminal) Installation and Setup
+# Android (Terminal) Installation and Setup
 
 ## Environment Requirements
 * A Supported OS. See **[Appendix A](../A/index.html)**

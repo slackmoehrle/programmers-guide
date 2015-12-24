@@ -1,4 +1,4 @@
-# Appendix G: Windows Installation and Setup
+# Windows Installation and Setup
 
 ## Environment Requirements
 * Windows 7+

@@ -1,4 +1,4 @@
-# Appendix A: Prerequisites
+# Prerequisites
 
 **Build Requirements**
 ------------------

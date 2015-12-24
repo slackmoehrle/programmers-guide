@@ -1,4 +1,4 @@
-# Appendix F: Linux Installation and Setup
+# Linux Installation and Setup
 
 ## Environment Requirements
 * Ubuntu 12.10+
