@@ -18,10 +18,9 @@ pages:
       - '8: Event Dispatch': '8.md'
       - '9: 3D': '9.md'
       - '10: Scripting': '10.md'
-      - '11: Services': '11.md'
-      - '12: Physics': '12.md'
-      - '13: Audio': '13.md'
-      - '14: Advanced Topics': '14.md'
+      - '11: Physics': '11.md'
+      - '12: Audio': '12.md'
+      - '13: Advanced Topics': '13.md'
     - 'Appendices':
       - 'A: Prerequisites': 'A.md'
       - 'B: Android (Terminal) Setup': 'B.md'

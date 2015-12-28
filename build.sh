@@ -3,12 +3,12 @@
 ### Define variables that we need for this script
 ### These are the chapters are are currently done. Add chapters here.
 allDocuments=('blank' 'index' '1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11'
-'12' '13' '14' 'A' 'B' 'C' 'D' 'E' 'F' 'G' 'H' 'I' 'cocos')
+'12' '13' 'A' 'B' 'C' 'D' 'E' 'F' 'G' 'H' 'I' 'cocos')
 allChapters=('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11'
-'12' '13' '14' 'A' 'B' 'C' 'D' 'E' 'F' 'G' 'H' 'I' 'cocos')
+'12' '13' 'A' 'B' 'C' 'D' 'E' 'F' 'G' 'H' 'I' 'cocos')
 misc=('blank' 'index' 'title')
-chaptersWithFolders=('2' '3' '4' '5' '6' '7' '9' '12' '14' 'B' 'C' 'D' 'F' 'G' 'H')
-chaptersWithOutFolders=('1' '8' '10' '11' '13' 'A' 'E' 'I' 'cocos')
+chaptersWithFolders=('2' '3' '4' '5' '6' '7' '9' '11' '13' 'B' 'C' 'D' 'F' 'G' 'H')
+chaptersWithOutFolders=('1' '8' '10' '12' 'A' 'E' 'I' 'cocos')
 
 foundDirs=()
 
@@ -140,8 +140,6 @@ buildPrint() {
   12.html \
   blank.html \
   13.html \
-  blank.html \
-  14.html \
   blank.html \
   A.html \
   blank.html \
