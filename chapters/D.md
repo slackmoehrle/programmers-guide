@@ -3,14 +3,14 @@
 ## Environment Requirements
 * Mac OS X 10.8+
 
-* cocos2d-x v3.3 [https://cocos2d-x.org/download](https://cocos2d-x.org/download "cocos2d-x")
+* Cocos2d-x v3.3 [https://cocos2d-x.org/download](https://cocos2d-x.org/download "Cocos2d-x")
 
 * Xcode 5.1.1+ [https://developer.apple.com/downloads/index.action](https://developer.apple.com/downloads/index.action)
 
 * iOS 5.0+
 
 ## Prerequisite
-* Download cocos2d-x and unzip it. (maybe: ~/). Right click on the __.zip__ file
+* Download Cocos2d-x and unzip it. (maybe: ~/). Right click on the __.zip__ file
 and unzip it:
 
 ![](D-img/unzip.png "")
@@ -22,7 +22,7 @@ and unzip it:
 ![](D-img/contents.png "")
 
 ## Build and Run
-* Enter __cocos2d-x/build__ and open __cocos2d_tests.xcodeproj__
+* Enter __Cocos2d-x/build__ and open __cocos2d_tests.xcodeproj__
 * Choose __cpp-tests iOS__ from targets drop-down box  
 * Click __run__ to compile and run __cpp-tests__
 

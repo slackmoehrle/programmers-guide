@@ -9,9 +9,9 @@ __Contributors/Editors:__ stevetranby, Maxxx, smitpatel88, IQD, Michael, Meir_ya
 
 __Special Thanks:__ To our users! Without you there is no reason to even write this guide.
 
-[PDF Version](http://www.cocos2d-x.org/programmersguide/ProgrammersGuide.pdf)
+[PDF Version](http://www.Cocos2d-x.org/programmersguide/ProgrammersGuide.pdf)
 
-[eBook Version](http://www.cocos2d-x.org/programmersguide/ProgrammersGuide.epub)
+[eBook Version](http://www.Cocos2d-x.org/programmersguide/ProgrammersGuide.epub)
 
 Please provide feedback for this guide on [GitHub](https://github.com/chukong/programmers-guide)
 

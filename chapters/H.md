@@ -2,12 +2,12 @@
 
 ## Environmental Requirements
 * Windows 8.0/8.1
-* cocos2d-x v3.3 [http://cocos2d-x.org/download](http://cocos2d-x.org/download)
+* Cocos2d-x v3.3 [http://cocos2d-x.org/download](http://cocos2d-x.org/download)
 * Visual Studio 2012+
 * Windows Phone SDK 8.0 [http://dev.windowsphone.com/en-US/downloadsdk](http://dev.windowsphone.com/en-US/downloadsdk)
 
 ## Prerequisite
-* Download cocos2d-x and unzip it. (maybe: ~/)
+* Download Cocos2d-x and unzip it. (maybe: ~/)
 
 ![](H-img/1.png "")
 

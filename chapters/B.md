@@ -3,7 +3,7 @@
 ## Environment Requirements
 * A Supported OS. See **[Appendix A](../A/index.html)**
 
-* cocos2d-x v3.x [https://cocos2d-x.org/download](https://cocos2d-x.org/download "cocos2d-x")
+* Cocos2d-x v3.x [https://cocos2d-x.org/download](https://cocos2d-x.org/download "Cocos2d-x")
 
 * JDK/SDK 1.6+ [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
@@ -16,7 +16,7 @@
 * Python 2.7.5 [https://python.org/downloads](https://python.org/downloads)
 
 ## Prerequisite
-* Download **cocos2d-x**
+* Download **Cocos2d-x**
 
 * Download the **JDK**
 
@@ -29,7 +29,7 @@
 * Download **Python**
 
 ## Windows Instructions
-* unzip __cocos2d-x__
+* unzip __Cocos2d-x__
 
 ![](B-img/win-step1.png "")
 
@@ -79,7 +79,7 @@ path to where you installed the JDK above.
 development environment. This will set the necessary environment variables needed.
 If you haven't configured this environment before, you will be prompted to enter
 paths for variables that are not found. You run __setup.py__ from the directory
-cocos2d-x is in.
+Cocos2d-x is in.
 
 		> setup.py
 
@@ -87,7 +87,7 @@ cocos2d-x is in.
 
 * restart your command prompt for these settings to take effect
 
-* to build __cpp-tests__, __cd__ to where you are keeping cocos2d-x and enter the
+* to build __cpp-tests__, __cd__ to where you are keeping Cocos2d-x and enter the
 __build__ directory
 
 * run __android list targets__ from __sdk/tools__ to see what targets you have
@@ -110,7 +110,7 @@ screenshot above, as an example, run:
 
 
 ## OS X, Linux Instructions
-* unzip cocos2d-x
+* unzip Cocos2d-x
 
 ![](B-img/1.png "")
 
@@ -135,7 +135,7 @@ not found.
 	__caution__: You must **not** use the `~` sign. Use the full path to your **home**
 directory. Otherwise, the scripts will fail due to error path value.
 
-* in your __cocos2d-x__ directory run: __python setup.py__
+* in your __Cocos2d-x__ directory run: __python setup.py__
 
 * after setting the environment variables run:
 
@@ -148,7 +148,7 @@ directory. Otherwise, the scripts will fail due to error path value.
 ![](B-img/setuppy03.png "")
 
 * change your directory to the where the __android-build.py__ script is located.
-(usually __cocos2d-x/build__)
+(usually __Cocos2d-x/build__)
 
 * to see what targets are available. run:
 

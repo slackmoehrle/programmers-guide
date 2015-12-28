@@ -2,12 +2,12 @@
 
 ## Environment Requirements
 * Windows 7+
-* cocos2d-x v3.3 [http://cocos2d-x.org/download](http://cocos2d-x.org/download)
+* Cocos2d-x v3.3 [http://cocos2d-x.org/download](http://cocos2d-x.org/download)
 * Visual Studio 2012+
 * Dependencies: Python 2.7
 
 ## Prerequisite
-* Download cocos2d-x and unzip it. (maybe: ~/)
+* Download Cocos2d-x and unzip it. (maybe: ~/)
 
 ![](G-img/1.png "")
 

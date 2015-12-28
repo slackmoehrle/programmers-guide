@@ -4,7 +4,7 @@ Programmers-Guide
 This is the Cocos2d-x programmers guide. It is licensed under the
 [`Creative Commons BY-SA` license.]( https://creativecommons.org/licenses/by-sa/4.0/)
 
-You can read this guide [online](http://www.cocos2d-x.org/programmersguide) at http://www.cocos2d-x.org/programmersguide
+You can read this guide [online](http://www.Cocos2d-x.org/programmersguide) at http://www.Cocos2d-x.org/programmersguide
 
 
 ## Directory layout
@@ -42,7 +42,7 @@ Any changes made while `mkdocs serve` is running are automatically rebuilt.
 * run `build.sh`
 
 Content is build in `docs` and deployed to `site`. This script also builds the
-ePub and PDF versions as well as deploys out to our staging server and http://www.cocos2d-x.org/programmersguide
+ePub and PDF versions as well as deploys out to our staging server and http://www.Cocos2d-x.org/programmersguide
 
 ## When contributing
 
