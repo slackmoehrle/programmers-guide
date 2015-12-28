@@ -55,6 +55,7 @@ pre {
     background-image: url("../img/grid11.png");
     background-repeat: repeat;
     font-size: 12px;
+    font-weight: bold;
 }
 .well {
     background-color: #FCFDFF;

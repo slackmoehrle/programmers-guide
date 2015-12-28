@@ -8,19 +8,22 @@ h3, h4, h5, h6 {color: #2980b9; font-weight: 300}
         padding: 0px;
         list-style: none;
         border: 1px solid #ccc;
+        background: #FFFFFF;
 }
 .langs li{
-        background: none;
+        background: #FFFFFF;
         display: inline-block;
         padding: 10px 15px;
         cursor: pointer;
 }
 .langs a, .lang a:visited {
-  color: #FF6633;
+  color: #666666;
+  font-weight: bold;
 }
 .langs li a.selected{
-  color: #FF6633;
+  color: #000000;
+  font-weight: bold;
 }
 .tab-content {
-        display: none;
+  display: none;
 }
