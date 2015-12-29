@@ -66,7 +66,13 @@ elements and put the content for that language in between:
 
 Example for C++:
   ```
-  <div class="tab-cpp tab_content">
+  <div class="langs">
+  <ul>
+    <li><a href="#" id="tab-cpp">C++</a></li>
+    <li><a href="#" id="tab-js">Javascript</a></li>
+  </ul>
+</div>
+<div class="tab-cpp tab_content">
 
 some content that is c++ specific.....
 
