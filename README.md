@@ -72,7 +72,7 @@ Example for C++:
     <li><a href="#" id="tab-js">Javascript</a></li>
   </ul>
 </div>
-<div class="tab-cpp tab_content">
+  <div class="tab-cpp tab_content">
 
 some content that is c++ specific.....
 
