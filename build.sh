@@ -7,8 +7,8 @@ allDocuments=('blank' 'index' '1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11'
 allChapters=('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11'
 '12' '13' 'A' 'B' 'C' 'D' 'E' 'F' 'G' 'H' 'I' 'cocos')
 misc=('blank' 'index' 'title')
-chaptersWithFolders=('2' '3' '4' '5' '6' '7' '9' '11' '13' 'B' 'C' 'D' 'F' 'G' 'H')
-chaptersWithOutFolders=('1' '8' '10' '12' 'A' 'E' 'I' 'cocos')
+chaptersWithFolders=('2' '3' '4' '5' '6' '7' '9' '11' '13' 'B' 'C' 'D' 'F' 'G' 'H' 'cocos')
+chaptersWithOutFolders=('1' '8' '10' '12' 'A' 'E' 'I')
 
 foundDirs=()
 

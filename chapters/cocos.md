@@ -1,14 +1,77 @@
 #Cocos
 
 ##What is Cocos?
+__Cocos__ is a *one stop shop* tool, that helps to simplify your app development.
+You might call it an *ecosystem*. It contains everything you need in one download.
+Just double-click.
 
-##How are Cocos and Cocos2d-x related?
+Historically, __Cocos2d-x__ users would download either a __.zip__ of the latest
+release or become bleeding edge by staying in sync with our [GitHub](https://github.com/cocos2d/cocos2d-x) repo. When dealing with new releases, this was a manual integration effort for
+developers. If you had multiple projects, depending upon your setup, you may have
+even had to perform a manual integration for each project.
+
+Not anymore, utilizing __Cocos__. __Cocos__ had been available as a console only
+app with limited functionality for creating projects as well as compiling and
+running your applications. However, now, it is your simple solutions to managing
+your entire project base. __Cocos__ provides:
+
+* A unified setup for both __Cocos2d-x__ and __Cocos__. This allows you to stay
+  up to date with the latest __Cocos2d-x__ releases. This includes using precompiled
+  binaries and source code, in a single place.
+* Easy integration with __SDKBOX__ for 3rd party services: Facebook, IAP and many more.
+* Developers a channel to provide feedback and get support, directly within __Cocos__,
+  making it simple to contact the engine team for help.　
+
+##How are Cocos and Cocos2d-x and Cocos Studio related?
+__Cocos2d-x__ is untouched in the way you think of it. You can think of __Cocos__
+as the way you work with your projects and integrate it with the __Cocos2d-x__ engine.
+The engine still operates the same and offers all the functionality that you have
+come to expect. __Cocos Studio__ is now part of the unified __Cocos__ infrastructure.
+The documentation is [here]().
 
 ##What is the workflow?
+Historically, you probably downloaded a __.zip__ from the website or if you stayed
+a hipster and pulled from the [GitHub](https://github.com/cocos2d/cocos2d-x) repo.
+Downloading the __.zip__ will no longer be available. [Github](https://github.com/cocos2d/cocos2d-x), however, will always remain available.
 
-##Cocos Studio
+The workflow is now to use __Cocos__ for everything! Yes, it handles everything
+from __creating__ projects, __editing__ project properties and settings,
+__integrating__ SDKBOX services, __compiling and running__ your code and __building__
+your user interface in __Cocos Studio__.
 
+__Cocos__ is simple with a clean, modern interface for maximizing your productivity.
+Take a look:
 
+The main window:
+
+![](cocos-img/main_window.png "Cocos main window")
+
+Creating a new project:
+
+![](cocos-img/creating_a_new_project.png "Creating a new project")
+
+Now all of your projects in a single place:
+
+![](cocos-img/all_projects.png "All Projects")
+
+##Precompiled libraries versus source code
+__Cocos__ now makes it easy for developers to use precompiled libraries instead
+of the source code. Why might you want to do this? Speed for one! Using precompiled
+libraries eliminates the need to compile the __Cocos2d-x__ source each time. This
+eliminates the long thumb twiddling between compile sessions. Second, updating to
+the latest version is simple. You download directly from within __Cocos__ and __modify__
+your projects settings to switch to the latest version.
+
+##SDKBOX
+__SDKBOX__ provides many services that you can integrate into your apps for *FREE*.
+__Cocos__ and __SDKBOX__ seamlessly integrate allowing your to add services to your
+apps quickly and stay on top of services updates. As new versions of __SDKBOX__
+become available you can download directly from within __Cocos__ and __modify__
+your projects settings to update to the latest version. Once installed you should
+always review the [SDKBOX Documentation](http://docs.sdkbox.com/en/) for further
+integration details.
+
+You can read more about __SDKBOX__ and the services it offers in [Appendix I](../I/index.html).
 
 <!--## Prerequisite
 * Completed one of the Appendices **[A](../A/index.html)**, **[B](../B/index.html)**,
@@ -23,7 +86,7 @@ include: __ios__, __android__, __mac__, __linux__, __win32__, __wp8_1__ and
 __web__. You don't need to use an IDE unless you want to. It has many options,
 so let's go through them grouped by function.
 
-## Testing your path for `cocos`
+### Testing your path for `cocos`
 It is necessary for __cocos__ to be in your path or to specify the complete path
 to it when using it. An easy test:
 ```
@@ -34,7 +97,7 @@ If you see output like __1.2__ you are all set. If you see anything else you nee
 to either add the location to your __PATH__ or run __source ~/.bash_profile__ or
 specify the full path to __<cocos root>\tools\cocos2d-console\bin__.
 
-## Creating a new project
+###Creating a new project
 To create a new project you use the __cocos new__ command. The command is formatted
 as:
 ```
