@@ -122,7 +122,9 @@ to change your projects settings at any time. To create a new new project:
  </tr>
  <tr>
   <td><b>SDKs</b></td>
-  <td>which SDK services are available to add to your project. Currently these include: <b>AdColony</b>, <b>AgeCheq</b>, <b>Appodeal</b>, <b>Bee7</b>, <b>Chartboost</b>, <b>Facebook</b>, <b>Flurry Analytics</b>, <b>Fyber</b>, <b>Google Analytics</b>, <b>In-App Purchase</b>, <b>Kochava</b>, <b>Playphone</b>, <b>Ratings & Reviews</b>, <b>Scientific Revenue</b>, <b>SOOMLA Grow</b>, <b>Tune</b>, <b>Valuepotion</b>, <b>Vungle</b> and <b>You Tube</b>.</td>
+  <td>which SDK services are available to add to your project. These services wrap
+  up all the libraries and APIs from the service providers. All will be integrated
+  for you to update the settings and call the service from your project.</td>
  </tr>
 </table>
 
