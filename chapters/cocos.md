@@ -2,10 +2,10 @@
 
 ##What is Cocos?
 __Cocos__ is a *one stop shop* tool, that helps to simplify your app development.
-You might call it an *ecosystem*. It contains everything you need in one download.
+It is a complete *ecosystem*. It contains everything you need in one download.
 Just double-click.
 
-Historically, __Cocos2d-x__ users would download either a __.zip__ of the latest
+Historically, developers would download either a __.zip__ of the latest
 release or become bleeding edge by staying in sync with our [GitHub](https://github.com/cocos2d/cocos2d-x) repo. When dealing with new releases, this was a manual integration effort for
 developers. If you had multiple projects, depending upon your setup, you may have
 even had to perform a manual integration for each project.
@@ -68,13 +68,15 @@ and you can add services to your apps quickly and stay on top of services update
 As new versions of __SDKs__ become available you can download directly from within
 __Cocos__ and __modify__ your projects settings to update to the latest version.
 
-Currently, __SDKBOX__ is integrated into __Cocos2d-x__. You can read more about
+Currently, __SDKBOX__ is integrated into __Cocos__. You can read more about
 __SDKBOX__ and the services it offers in [Appendix I](../I/index.html).
 
 #Using Cocos
 
 ## Creating a new project
 Creating a new project with __Cocos__ is easy, just follow a few simple steps.
+Using __Cocos__, you are creating a __Cocos2d-x__ project with complete flexibility
+to change your projects settings at any time. To create a new new project:
 
 - Open __Cocos__
 - Click **New Project**

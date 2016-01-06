@@ -1,36 +1,37 @@
-site_name: Programmers Guide
-site_url: http://cocos2d-x.org/programmersguide
-site_description: The Cocos2d-x Programmers Guide
-site_description: The Cocos2d-x Programmers Guide
+site_name: Cocos2d-x Documentation
+site_url: http://cocos2d-x.org/documentation
+site_description: Cocos2d-x Documentation.
 site_author: The Cocos2d-x Team
 pages:
 - Home: 'index.md'
 - Contents:
     - 'Cocos': 'cocos.md'
-    - 'Chapters':
-      - '1: About Cocos2d-x': '1.md'
-      - '2: Basic Concepts': '2.md'
-      - '3: Sprites': '3.md'
-      - '4: Actions': '4.md'
-      - '5: Scenes': '5.md'
-      - '6: UI': '6.md'
-      - '7: Other Node Types': '7.md'
-      - '8: Event Dispatch': '8.md'
-      - '9: 3D': '9.md'
-      - '10: Scripting': '10.md'
-      - '11: Physics': '11.md'
-      - '12: Audio': '12.md'
-      - '13: Advanced Topics': '13.md'
-    - 'Appendices':
-      - 'A: Prerequisites': 'A.md'
-      - 'B: Android (Terminal) Setup': 'B.md'
-      - 'C: Android (Eclipse) Setup': 'C.md'
-      - 'D: iOS Setup': 'D.md'
-      - 'E: Mac OSX Setup': 'E.md'
-      - 'F: Linux Setup': 'F.md'
-      - 'G: Windows Setup': 'G.md'
-      - 'H: Windows Phone Setup': 'H.md'
-      - 'I: SDKBOX': 'I.md'
+    - 'Programmers Guide':
+      - 'Chapters':
+        - '1: About Cocos2d-x': '1.md'
+        - '2: Basic Concepts': '2.md'
+        - '3: Sprites': '3.md'
+        - '4: Actions': '4.md'
+        - '5: Scenes': '5.md'
+        - '6: UI': '6.md'
+        - '7: Other Node Types': '7.md'
+        - '8: Event Dispatch': '8.md'
+        - '9: 3D': '9.md'
+        - '10: Scripting': '10.md'
+        - '11: Physics': '11.md'
+        - '12: Audio': '12.md'
+        - '13: Advanced Topics': '13.md'
+      - 'Appendices':
+        - 'A: Prerequisites': 'A.md'
+        - 'B: Android (Terminal) Setup': 'B.md'
+        - 'C: Android (Eclipse) Setup': 'C.md'
+        - 'D: iOS Setup': 'D.md'
+        - 'E: Mac OSX Setup': 'E.md'
+        - 'F: Linux Setup': 'F.md'
+        - 'G: Windows Setup': 'G.md'
+        - 'H: Windows Phone Setup': 'H.md'
+        - 'I: SDKBOX': 'I.md'
+     'API Reference': 'cocos.md'  
 - About: 'title.md'
 
 #theme: readable
