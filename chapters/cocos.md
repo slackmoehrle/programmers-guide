@@ -62,16 +62,14 @@ eliminates the long thumb twiddling between compile sessions. Second, updating t
 the latest version is simple. You download directly from within __Cocos__ and __modify__
 your projects settings to switch to the latest version.
 
-##SDKBOX
-__SDKBOX__ provides many services that you can integrate into your apps for *FREE*.
-__Cocos__ and __SDKBOX__ seamlessly integrate allowing your to add services to your
-apps quickly and stay on top of services updates. As new versions of __SDKBOX__
-become available you can download directly from within __Cocos__ and __modify__
-your projects settings to update to the latest version. Once installed you should
-always review the [SDKBOX Documentation](http://docs.sdkbox.com/en/) for further
-integration details.
+##SDK Integration
+__Cocos__ provides many services that you can integrate into your apps for *FREE*
+and you can add services to your apps quickly and stay on top of services updates.
+As new versions of __SDKs__ become available you can download directly from within
+__Cocos__ and __modify__ your projects settings to update to the latest version.
 
-You can read more about __SDKBOX__ and the services it offers in [Appendix I](../I/index.html).
+Currently, __SDKBOX__ is integrated into __Cocos2d-x__. You can read more about
+__SDKBOX__ and the services it offers in [Appendix I](../I/index.html).
 
 <!--## Prerequisite
 * Completed one of the Appendices **[A](../A/index.html)**, **[B](../B/index.html)**,
