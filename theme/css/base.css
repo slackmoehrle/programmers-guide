@@ -48,6 +48,7 @@ div.source-links {
     padding-top:    10px;
     padding-bottom: 10px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 /* All levels of nav */
@@ -64,7 +65,6 @@ div.source-links {
 .bs-sidebar .nav > .active > a,
 .bs-sidebar .nav > .active:hover > a,
 .bs-sidebar .nav > .active:focus > a {
-    font-weight: bold;
     background-color: transparent;
     border-right: 1px solid;
 }
