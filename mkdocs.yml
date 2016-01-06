@@ -1,7 +1,6 @@
 site_name: Programmers Guide
 site_url: http://cocos2d-x.org/programmersguide
 site_description: The Cocos2d-x Programmers Guide
-site_description: The Cocos2d-x Programmers Guide
 site_author: The Cocos2d-x Team
 pages:
 - Home: 'index.md'
