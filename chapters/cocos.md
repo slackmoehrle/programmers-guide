@@ -71,6 +71,63 @@ __Cocos__ and __modify__ your projects settings to update to the latest version.
 Currently, __SDKBOX__ is integrated into __Cocos2d-x__. You can read more about
 __SDKBOX__ and the services it offers in [Appendix I](../I/index.html).
 
+#Using Cocos
+
+## Creating a new project
+Creating a new project with __Cocos__ is easy, just follow a few simple steps.
+
+- Open __Cocos__
+- Click **New Project**
+- Specify your project settings. Let's make sure we know what the settings are:
+
+<table>
+ <tr>
+  <th><u><b>Setting</b></u></th>
+  <th><u><b>Description</b></u></th>
+ </tr>
+ <tr>
+  <td><b>Project Name</b></td>
+  <td>the name of the project to be created.</td>
+ </tr>
+ <tr>
+  <td><b>Project Path</b></td>
+  <td>the folder in which your projects are located.</td>
+ </tr>
+ <tr>
+  <td><b>Engine Version</b></td>
+  <td>version of Cocos2d-x you will use to create this project.</td>
+ </tr>
+ <tr>
+  <td><b>Engine Type</b></td>
+  <td><ul><li><b><u>Precompiled Library:</u></b> a static library of the cocos2d-x source code. This would speed up compile times as there is no need to continually build the engine's source.</li>
+  <br />
+  <li><b><u>Source Code:</u></b> cocos2d-x source code.</li>
+  </ul>
+  </td>
+ </tr>
+ <tr>
+  <td><b>Project Language</b></td>
+  <td><ul><li><b><u>Lua:</u></b> based on cocos2d-x Lua binding. It can run on Android, iOS, Windows Phone, Windows, Mac.</li>
+  <br />
+  <li><b><u>JavaScript:</u></b> based on cocos2d-js, also includes cocos2d-x JavaScript bindings. The JavaScript bindings are compatible with HTML5. You can run code in cocos2d-x runtime and HTML5 native engine. The default settings will be JavaScript bindings if the projects are built for running on Android, iOS, Windows Phone, Windows and Mac. The default settings will be cocos2d-js if the projects are for HTML5.</li>
+  <br />
+  <li><b><u>C++:</u></b> based on cocos2d-x, It can run on Android, iOS, Windows Phone, Windows, Mac.</li>
+  </ul></td>
+ </tr>
+ <tr>
+  <td><b>Editor</b></td>
+  <td>whether or not to create a Cocos Studio project. Cocos Studio is the official editor of Cocos2d-x.</td>
+ </tr>
+ <tr>
+  <td><b>SDKs</b></td>
+  <td>which SDK services are available to add to your project. Currently these include: <b>AdColony</b>, <b>AgeCheq</b>, <b>Appodeal</b>, <b>Bee7</b>, <b>Chartboost</b>, <b>Facebook</b>, <b>Flurry Analytics</b>, <b>Fyber</b>, <b>Google Analytics</b>, <b>In-App Purchase</b>, <b>Kochava</b>, <b>Playphone</b>, <b>Ratings & Reviews</b>, <b>Scientific Revenue</b>, <b>SOOMLA Grow</b>, <b>Tune</b>, <b>Valuepotion</b>, <b>Vungle</b> and <b>You Tube</b>.</td>
+ </tr>
+</table>
+
+- Click **Create**
+
+![](cocos-img/creating_a_new_project.png "Creating a new project")
+
 <!--## Prerequisite
 * Completed one of the Appendices **[A](../A/index.html)**, **[B](../B/index.html)**,
 **[C](../C/index.html)**, **[D](../D/index.html)**, **[E](../E/index.html)**,
@@ -80,7 +137,7 @@ __SDKBOX__ and the services it offers in [Appendix I](../I/index.html).
 Cocos2d-x comes with a command-line tool called __cocos__. It is a cross-platform
 tool that allows you to create new Cocos2d-x applications as well as __run__ them
 and _deploy_ them. __cocos__ works for all Cocos2d-x supported platforms, which
-include: __ios__, __android__, __mac__, __linux__, __win32__, __wp8_1__ and
+include: __ios</b>, <b>android</b>, <b>mac</b>, <b>linux</b>, <b>win32</b>, <b>wp8_1__ and
 __web__. You don't need to use an IDE unless you want to. It has many options,
 so let's go through them grouped by function.
 
