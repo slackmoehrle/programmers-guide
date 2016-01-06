@@ -14,14 +14,14 @@ __Kochava__, __Vungle__ and many more. __SDKBOX__ makes it super *EASY* and *FRE
 Cocos2d-x developers to integrate 3rd party SDKs into their games by doing all
 the hard, tedious and tricky work so that developers don’t have to. All services
 are tested and certified. No matter which version of the game engine you are using,
-C++ or Javascript or Lua, SDKBOX will reduce your integration time from a typical
+C++ or Javascript or Lua, __SDKBOX__ will reduce your integration time from a typical
 1~2 weeks down to less than a day. No hassle, no friction.
 
 ## Which SDKBOX Plugins are right for you?
 * __AdColony:__ Instant-play™ HD the best user experience. [Documentation](http://sdkbox-doc.github.io/en/plugins/adcolony/index.html)
 * __AgeCheq:__ Easy compliance with the US and Euro Child Privacy Laws. [Documentation](http://sdkbox-doc.github.io/en/plugins/agecheq/index.html)
-* __Appodeeal:__ Maximize your app revenue efficiently with programmatic ad mediation
-for publishers. [Documentation]()
+* __Appodeal:__ Maximize your app revenue efficiently with programmatic ad mediation
+for publishers. [Documentation](http://sdkbox-doc.github.io/en/plugins/appodeal/index.html)
 * __Bee7:__ Native rewarded re-engagement system encourages valuable players to stay in your game. [Documentation](http://sdkbox-doc.github.io/en/plugins/bee7/index.html)
 * __Chartboost:__ Games-only platform to increase revenue and discover new players. [Documentation](http://sdkbox-doc.github.io/en/plugins/chartboost/index.html)
 * __Facebook:__ The world's largest social network. [Documentation](http://sdkbox-doc.github.io/en/plugins/facebook/index.html)
@@ -31,12 +31,12 @@ for publishers. [Documentation]()
 * __In-App Purchase:__ Easily implement In-App Purchases in your game. [Documentation](http://sdkbox-doc.github.io/en/plugins/iap/index.html)
 * __Kochava:__ Driving Effective Mobile Ad Spend. [Documentation](http://sdkbox-doc.github.io/en/plugins/kochaca/index.html)
 * __Playphone:__ Your must-have game monetization channel in the world’s fastest
-growing gaming markets. [Documentation]()
+growing gaming markets. [Documentation](http://sdkbox-doc.github.io/en/plugins/playphone/index.html)
 * __Ratings & Reviews:__ More downloads of your app with App store ratings and reviews. [Documentation](http://sdkbox-doc.github.io/en/plugins/review/index.html)
-* __Scientific Revenue:__ Pricing without Compromise. [Documentation]()
+* __Scientific Revenue:__ Pricing without Compromise. [Documentation](http://sdkbox-doc.github.io/en/plugins/scientificrevenue/index.html)
 * __SOOMLA Grow:__ God-mode analytics: see analytics from other games, target hidden
 whales. [Documentation](http://sdkbox-doc.github.io/en/plugins/soomlagrow/index.html)
 * __Tune:__ Making mobile marketing better, for everyone. [Documentation](http://sdkbox-doc.github.io/en/plugins/tune/index.html)
-* __Valuepotion:__ Monetize your full user base and get your values up. [Documentation]()
+* __Valuepotion:__ Monetize your full user base and get your values up. [Documentation](http://sdkbox-doc.github.io/en/plugins/valupotion/index.html)
 * __Vungle:__ Infrastructure for app monetization through video ads. [Documentation](http://sdkbox-doc.github.io/en/plugins/vungle/index.html)
-* __YouTube Player:__ Single API to play YouTube videos on both iOS and Android. [Documentation]()
+* __YouTube Player:__ Single API to play YouTube videos on both iOS and Android. [Documentation](http://sdkbox-doc.github.io/en/plugins/youtube/index.html)
