@@ -18,7 +18,7 @@ your entire project base. __Cocos__ provides:
 * A unified setup for both __Cocos2d-x__ and __Cocos__. This allows you to stay
   up to date with the latest __Cocos2d-x__ releases. This includes using precompiled
   binaries and source code, in a single place.
-* Easy integration with __SDKBOX__ for 3rd party services: Facebook, IAP and many more.
+* Easy integration with __SDKs__ for 3rd party services: Facebook, IAP and many more.
 * Developers a channel to provide feedback and get support, directly within __Cocos__,
   making it simple to contact the engine team for help.　
 
